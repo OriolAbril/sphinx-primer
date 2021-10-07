@@ -1,4 +1,4 @@
-# Sphinx primer
+# Sphinx primer for ArviZ and PyMC contributors
 
 :::{figure-md}
 
