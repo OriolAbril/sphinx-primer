@@ -1,0 +1,7 @@
+docutils
+Sphinx>=3
+pydata_sphinx_theme>=0.6.3
+myst-parser
+myst-nb
+sphinx-copybutton
+sphinx_design
