@@ -17,13 +17,6 @@ extensions = [
     "sphinx_design",
 ]
 
-# ipython directive configuration
-ipython_warning_is_error = False
-
-# Generate API documentation when building
-autosummary_generate = True
-numpydoc_show_class_members = False
-
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]
 #
@@ -31,13 +24,15 @@ templates_path = ["_templates"]
 # MyST related params
 jupyter_execute_notebooks = "auto"
 execution_excludepatterns = ["*.ipynb"]
-
 myst_enable_extensions = [
     "colon_fence",
     "deflist",
     "dollarmath",
     "amsmath"
 ]
+
+# use numbered figures
+numfig = True
 
 # The base toctree document.
 master_doc = "index"
@@ -95,6 +90,7 @@ html_theme_options = {
     ],
     "navbar_start": ["navbar-logo", "navbar-version"],
     "use_edit_page_button": True,
+    "search_bar_text": "Search presentation..."
 }
 html_context = {
     "github_user": "OriolAbril",
@@ -123,9 +119,6 @@ html_favicon = "_static/favicon.ico"
 
 # Example configuration for intersphinx
 intersphinx_mapping = {
-    "arviz": ("https://arviz-devs.github.io/arviz/", None),
     "numpy": ("https://numpy.org/doc/stable/", None),
-    "pandas": ("https://pandas.pydata.org/pandas-docs/stable/", None),
-    "pymc": ("https://docs.pymc.io/", None),
-    "xarray": ("http://xarray.pydata.org/en/stable/", None),
+    "sphinx": ("https://www.sphinx-doc.org/en/master/", None),
 }

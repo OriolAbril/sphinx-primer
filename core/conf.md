@@ -9,6 +9,9 @@ theme, the two concepts detailed in the upcoming pages.
 
 As a contributor to ArviZ or PyMC, chances are you won't need
 to worry about this `conf.py`.
+They are already written and configure the build to suit our needs so far.
+However, if you are working on theme layout or want to configure some
+extensions, you'll need to edit this file.
 
 **Resources**
-* [Sphinx docs on configuration](https://www.sphinx-doc.org/en/master/usage/configuration.html)
+* {ref}`Sphinx docs on configuration <build-config>`

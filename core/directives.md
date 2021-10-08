@@ -59,5 +59,5 @@ in order to nest directives, you need to start with more backticks/colons to avo
 syntax errors due to anbiguity about which directive should be closed.
 
 **Resources**
-* [Sphinx docs on directives](https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html)
+* {doc}`Sphinx docs on directives <usage/restructuredtext/directives>`
 * [MyST documentation on directives](https://myst-parser.readthedocs.io/en/latest/syntax/syntax.html#directives-a-block-level-extension-point)

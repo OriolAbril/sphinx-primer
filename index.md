@@ -2,7 +2,7 @@
 
 :::{figure-md}
 
-![sphinx logo](sphinx.png)
+![sphinx logo](img/sphinx.png)
 
 Sphinx is a documentation generator.
 :::
@@ -33,18 +33,22 @@ digraph "sphinx-ext-graphviz" {
   sphinx [label="Sphinx", shape="component",
     href="https://www.sphinx-doc.org/"];
   ext [label="Extensions", shape="component"];
-  rst [label="Docs (.rst)", shape="note",
+  rst [label="Docs (.rst)", shape="folder",
     href="https://docutils.sourceforge.io/docs/user/rst/quickref.html",
     fillcolor=green, style=filled];
-  myst [label="Docs (.md)", shape="note",
+  myst [label="Docs (.md or .ipynb)", shape="folder",
     href="https://docutils.sourceforge.io/docs/user/rst/quickref.html",
     fillcolor=orange, style=filled];
-  html_files [label="HTML Files", shape="folder",
-    href="https://pymc.readthedocs.io/en/latest/",
+  conf [label="conf.py", shape="note",
+    href="https://www.sphinx-doc.org/en/master/usage/configuration.html",
+    color=blue, style=bold];
+  html_files [label="HTML Files", shape="tab",
+    href="https://docs.pymc.io/en/latest/",
     fillcolor=yellow, style=filled];
 
   rst -> sphinx [label=" parse "];
   myst -> sphinx [label=" parse (via MyST) "];
+  conf -> sphinx [xlabel=" configure ", style=dashed];
   sphinx -> ext [label=" call ", style=dashed, arrowhead=none];
   sphinx -> html_files [label=" render "];
   ext -> html_files [style=dashed, label=" render "];
@@ -62,7 +66,7 @@ Using MyST also allows us to work indistinctively in `.md` or `.ipynb` files.
 :hidden:
 
 goals
-core/markup
+Sphinx core <core/markup>
 extensions/index
 themes
 :::

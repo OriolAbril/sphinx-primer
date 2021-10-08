@@ -16,49 +16,24 @@ markup and directives. See for yourselves:
 :::::{tab-set}
 
 ::::{tab-item} Rendered content
-
-1. We start with a numbered list
-
-   > Within the list we quote a section of some documentation
-   >
-   > :::{important}
-   > The documentation has an info box with some code inside it:
-   >
-   > ```
-   > print("Nested formatting yay!")
-   > ```
-   > :::
-
-1. We continue the list and markdown knows that it's the same list and not a new one.
-
+:::{include} nesting_example.md
+:start-line: 4
+:::
 ::::
 
 ::::{tab-item} Raw content
-
-````
-1. We start with a numbered list
-
-   > Within the list we quote a section of some documentation
-   >
-   > :::{info}
-   > The documentation has an info box with some code inside it:
-   >
-   > ```
-   > print("Nested formatting yay!")
-   > ```
-   > :::
-
-1. We continue the list and markdown knows that it's the same list and not a new one.
-````
-
+:::{include} nesting_example.md
+:code:
+:start-line: 4
+:::
 ::::
 
 :::::
 
 | rST | MyST |
 |---|---|
-| [rST documentation in Sphinx docs](https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html) | [myst-parser docs](https://myst-parser.readthedocs.io/en/latest/index.html) |
-| [rST documentation in Docutils docs](https://docutils.sourceforge.io/docs/user/rst/quickref.html) | [myst-nb docs](https://myst-nb.readthedocs.io/en/latest/) |
+| {ref}`rST documentation in Sphinx docs <sphinx:rst-primer>` | [MyST-Parser docs](https://myst-parser.readthedocs.io/en/latest/index.html) |
+| [rST documentation in Docutils docs](https://docutils.sourceforge.io/docs/user/rst/quickref.html) | [MyST-NB docs](https://myst-nb.readthedocs.io/en/latest/) |
 | [rST cheatsheet by Thomas Cokelaer](https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html) | [MyST cheatsheet in jupyterbook docs](https://jupyterbook.org/reference/cheatsheet.html) |
 
 :::{toctree}

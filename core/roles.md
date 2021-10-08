@@ -35,5 +35,5 @@ some use parenthesis, others semi colons or commas...
 ::::
 
 **Resources**
-* [Sphinx docs on roles](https://www.sphinx-doc.org/en/master/usage/restructuredtext/roles.html)
+* {doc}`Sphinx docs on roles <usage/restructuredtext/roles>`
 * [readthedocs page on cross-referencing with sphinx](https://docs.readthedocs.io/en/stable/guides/cross-referencing-with-sphinx.html)
