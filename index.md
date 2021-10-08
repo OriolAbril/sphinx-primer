@@ -7,18 +7,19 @@
 Sphinx is a documentation generator.
 :::
 
-It takes raw text content written with a markup language,
+Sphinx takes raw text content written with a markup language,
 and it translates and renders it in an rich output format such as html or pdf.
 
 The native markup language in Sphinx is rST, however, it is also possible
 to use MyST, a superset of markdown thanks to the executablebooks project.
 
-ArviZ and PyMC use both rST and MyST, which can be combined without problem
-within the same documentation, but the bulk of the content is written in MyST,
-with rST being used nearly exclusively for docstrings.
+{numref}`sphinx-diagram` outlines the process by which sphinx generates documentation.
+Don't worry if things don't make much sense yet. The key concept will be explained
+as they are needed and references to further reading will also be provided in the
+coming pages.
 
 :::{graphviz}
-:name: sphinx.diagram
+:name: sphinx-diagram
 :caption: Documentation generation process with Sphinx.
 :alt: How Sphinx Render the Final HTML output from raw text
 :align: center
@@ -54,6 +55,10 @@ digraph "sphinx-ext-graphviz" {
   ext -> html_files [style=dashed, label=" render "];
 }
 :::
+
+ArviZ and PyMC use both rST and MyST, which can be combined without problem
+within the same documentation, but the bulk of the content is written in MyST,
+with rST being used nearly exclusively for docstrings.
 
 Why MyST? MyST is a markdown superset, therefore pure markdown is also valid MyST.
 Markdown is the most common markup language nowadays and both developers and users

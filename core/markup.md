@@ -4,12 +4,12 @@ The most common and simple formatting actions are supported natively in both rST
 and MyST, and if you are reading this, chances are you already know which
 syntax to use for things like titles, bullet lists or bold text.
 
-More complex formatting can also be achieved with roles and directives, two
-key concepts in sphinx that are covered in the following pages.
+More complex formatting (or special functionality!) can also be achieved with
+roles and directives, two key concepts in sphinx that are covered in the following pages.
 The resources below generally combine markup, roles and directives
 (without distinguishing if their goal is formatting or not).
 
-There is one very important aspect that is generally overlooked, but that is key
+There is one very important aspect that is often overlooked, but that is key
 to both rST and MyST, which is that both support indefinite nesting of
 markup and directives. See for yourselves:
 

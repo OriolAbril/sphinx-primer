@@ -16,6 +16,7 @@ Main content of the directive, generally prose but not necessarly.
 ::::
 
 ::::{tab-item} MyST (colon fence)
+:selected:
 
 ````
 :::{directivename} main-argument

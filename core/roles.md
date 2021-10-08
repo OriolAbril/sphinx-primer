@@ -1,6 +1,6 @@
 # Roles
 
-Roles are inline content and are generally used for formatting and
+Roles are for inline content, and are mostly used for formatting and
 for cross-referencing. Roles require a type and an argument.
 Optionally, when used for cross-referencing only, roles can also contain
 a custom text for the hyperlink.
@@ -11,15 +11,17 @@ some use parenthesis, others semi colons or commas...
 ::::{tab-set}
 
 :::{tab-item} Rendered content
-* A formatting role for abbreviations: {abbr}`PPL (Probabilistic Programming Language)`
-* A cross-referencing role:
+* Formatting role for abbreviations and math:
+  {abbr}`PPL (Probabilistic Programming Language)`, {math}`\exp{x}`
+* Cross-referencing roles:
   {doc}`markup`, {doc}`back to markup <markup>`, {func}`numpy.array`
 :::
 
 :::{tab-item} Raw MyST content
 ```
-* A formatting role for abbreviations: {abbr}`PPL (Probabilistic Programming Language)`
-* A cross-referencing role:
+* Formatting role for abbreviations and math:
+  {abbr}`PPL (Probabilistic Programming Language)`, {math}`\exp{x}`
+* Cross-referencing roles:
   {doc}`markup`, {doc}`back to markup <markup>`, {func}`numpy.array`
 ```
 :::
