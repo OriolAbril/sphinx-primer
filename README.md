@@ -10,6 +10,8 @@ It does have one peculiarity with respect to most sphinx sites however,
 the content is structured in small pages so that when combined with
 the left/right key navigation it has the feel of a presentation.
 
+The website is published at https://sphinx-primer.readthedocs.io/en/latest/
+
 #### Build the webpage locally
 The content is written as a sphinx website, with the key navigation controls
 activated so it can be read as a presentation too. To build the page you'll
