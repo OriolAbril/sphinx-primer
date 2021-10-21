@@ -74,5 +74,6 @@ goals
 Sphinx core <core/markup>
 extensions/index
 themes
+beyond/index
 :::
 

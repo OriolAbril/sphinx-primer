@@ -27,6 +27,9 @@
 * `sphinx_panels` deprecated and being replaced by `sphinx_design`
 * [`sphinx_copybutton`](https://sphinx-copybutton.readthedocs.io/en/latest/)
   automatically adds a copy icon to all code blocks.
+* [`sphinx_togglebutton`](https://sphinx-togglebutton.readthedocs.io/en/latest/) (pulled in under the hood by `myst_nb`) makes extra
+  arguments and tags available for some directives and code cells in order
+  to add "toggle buttons" and collapse content.
 * [`notfound.extension`](https://sphinx-notfound-page.readthedocs.io/en/latest/)
   improves the support for a custom 404 error page, specially when hosting on
   GitHub pages or ReadTheDocs.

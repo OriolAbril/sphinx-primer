@@ -42,7 +42,7 @@ project = "Sphinx Primer"
 copyright = "2021, Oriol Abril-Pla"
 author = "Oriol Abril-Pla"
 
-version = "0.1"
+version = "0.2"
 # The full version, including alpha/beta/rc tags.
 release = version
 
