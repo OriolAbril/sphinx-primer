@@ -36,6 +36,15 @@ some use parenthesis, others semi colons or commas...
 
 ::::
 
+:::{tip}
+Sphinx cross-references are much more powerful and friendly with people reading raw docs than
+html links. You should probably not use html links unless you have a good reason to do so (i.e. a
+single external link),
+and you definitely should always use sphinx cross-references for internal links.
+
+For more on sphinx cross-references go to {ref}`cross_referencing` page.
+:::
+
 **Resources**
 * {doc}`Sphinx docs on roles <usage/restructuredtext/roles>`
 * [readthedocs page on cross-referencing with sphinx](https://docs.readthedocs.io/en/stable/guides/cross-referencing-with-sphinx.html)

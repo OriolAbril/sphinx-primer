@@ -1,3 +1,4 @@
+(cross_referencing)=
 # Cross-referencing in sphinx
 The [page from the readthedocs team](https://docs.readthedocs.io/en/stable/guides/cross-referencing-with-sphinx.html)
 is an amazing resource which also covers [intersphinx](https://docs.readthedocs.io/en/stable/guides/intersphinx.html).
