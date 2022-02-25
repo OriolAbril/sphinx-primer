@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Oriol Abril-Pla
+# This file is distributed under the same license as the Sphinx Primer package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx Primer 0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-25 04:50+0200\n"
+"PO-Revision-Date: 2022-02-25 03:07+0000\n"
+"Language-Team: Spanish (https://www.transifex.com/arviz/teams/132759/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../goals.md:1 cb7e44a4b8b347afbfedb2f3dc044aa2
+msgid "Goals of this primer"
+msgstr ""
+
+#: ../goals.md:3 80c823ea765e4504b94d37521ae5297d
+msgid ""
+"The main focus of this resource is to give only a very general overview of "
+"the sphinx related infrastructure used in ArviZ and PyMC, without explaining"
+" much directly."
+msgstr ""
+
+#: ../goals.md:7 5338b8d11af14747a85f0ad8512515fe
+msgid ""
+"Here are some things you should or should not expect from this resource:"
+msgstr ""
+
+#: ../goals.md:1 3522323e58a84bf698592629c2358781
+msgid "{fas}`times-circle;sd-text-danger` MyST or rST syntax guides"
+msgstr ""
+
+#: ../goals.md:2 af8f2683db7d4710ba9a71c4635d1233
+msgid ""
+"{fas}`check-circle;sd-text-success` explanations on why MyST and rST are "
+"important"
+msgstr ""
+
+#: ../goals.md:3 b27768a444fd4cedbd3119bfb57b0f40
+msgid ""
+"{fas}`times-circle;sd-text-danger` descriptions about which roles and "
+"directives exist"
+msgstr ""
+
+#: ../goals.md:4 85ad2157f35a4e82b1c6fb3a961646de
+msgid ""
+"{fas}`check-circle;sd-text-success` explanations on what a role and a "
+"directive are"
+msgstr ""
+
+#: ../goals.md:5 9daf67db304d4a32ab5a8412f0d3f8da
+msgid ""
+"{fas}`times-circle;sd-text-danger` explanation on how to configure sphinx "
+"builds"
+msgstr ""
+
+#: ../goals.md:6 75815d6b91264f24ae141bb3e9132fce
+msgid ""
+"{fas}`check-circle;sd-text-success` brief explanations on all the terms in "
+"this table and in the intro diagram"
+msgstr ""
+
+#: ../goals.md:7 823ac4016f6d45edb2811fe4e0a7b653
+msgid ""
+"{fas}`times-circle;sd-text-danger` tutorials on how to use the extensions "
+"that power ArviZ and PyMC docs"
+msgstr ""
+
+#: ../goals.md:8 6cbcddfd4a62475fb8c48d4b55096ac1
+msgid ""
+"{fas}`check-circle;sd-text-success` descriptions about which extensions are "
+"used in ArviZ and PyMC docs and why"
+msgstr ""
+
+#: ../goals.md:20 5b39c6adbc9c4127a7700115d3ff099f
+msgid ""
+"Most of the content will be references to other documentation pages for "
+"sphinx, sphinx extensions, the MyST syntax guide... The value of this "
+"resource is double fold though. It centralizes all these external references"
+" and links to useful documentation in a single place and it explains how all"
+" these fit together to serve the documentation goals at ArviZ and PyMC."
+msgstr ""

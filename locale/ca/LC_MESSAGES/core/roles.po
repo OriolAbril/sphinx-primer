@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Oriol Abril-Pla
+# This file is distributed under the same license as the Sphinx Primer package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Oriol Abril-Pla <oriol.abril.pla@gmail.com>, 2022
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx Primer 0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-25 04:50+0200\n"
+"PO-Revision-Date: 2022-02-25 03:07+0000\n"
+"Last-Translator: Oriol Abril-Pla <oriol.abril.pla@gmail.com>, 2022\n"
+"Language-Team: Catalan (https://www.transifex.com/arviz/teams/132759/ca/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../core/roles.md:1 02b8dd900ad34b99b268e32a12760a30
+msgid "Roles"
+msgstr "Rols"
+
+#: ../core/roles.md:3 864c18664c7f48fe889db48678f967ec
+msgid ""
+"Roles are for inline content, and are mostly used for formatting and for "
+"cross-referencing. Roles require a type and an argument. Optionally, when "
+"used for cross-referencing only, roles can also contain a custom text for "
+"the hyperlink. Also optionally, some formatting roles accept extra "
+"formatting options in addition to the main argument, however, there is no "
+"general rule on that, some use parenthesis, others semi colons or commas..."
+msgstr ""
+"Els rols són per a contingut en línia, i s'utilitzen principalment per a "
+"format i per a referències encreuada. Els rols requereixen un tipus i un "
+"argument. Opcionalment, quan s'utilitza només com a referència encreuada, "
+"els rols també poden contenir un text personalitzat per a l'enllaç. També "
+"opcionalment, alguns rols de formatació accepten opcions de formatació "
+"addicionals a més de l'argument principal, però, no hi ha cap regla general "
+"sobre això, alguns utilitzen parèntesis, altres semi-dos o comes..."
+
+#: ../core/roles.md:0 d986b5d633314ad7a5abebda7c10ae21
+msgid "Rendered content"
+msgstr "Contingut renderitzat"
+
+#: ../core/roles.md:1 5d8df8db338f4ab6b323ec2178a90b13
+msgid ""
+"Formatting role for abbreviations and math: {abbr}`PPL (Probabilistic "
+"Programming Language)`, {math}`\\exp{x}`"
+msgstr ""
+"Rols de formatació per abreviacions i fórmules matemàtiques: {abbr}`LPP "
+"(Llenguatge de Programació Probabilistic)`, {math}`\\exp{x}`"
+
+#: ../core/roles.md:3 bef1471c1a484179b29f01676c22d3ad
+msgid ""
+"Cross-referencing roles: {doc}`markup`, {doc}`back to markup <markup>`, "
+"{func}`numpy.array`"
+msgstr ""
+"Referències encreuades amb rols: {doc}`markup`, {doc}`torna a llenguatge de "
+"marques <markup>`, {func}`numpy.array`"
+
+#: ../core/roles.md:0 7184b7af6752491290b3c9fa1f3e1e92
+msgid "Raw MyST content"
+msgstr "Contingut MyST en brut"
+
+#: ../core/roles.md:0 beec6d562f554edab853e408a7e4a332
+msgid "Raw rST content"
+msgstr "Contingut rST en brut"
+
+#: ../core/roles.md:1 3eabcd4aa6e34b4989effe68d75de6b8
+msgid ""
+"Sphinx cross-references are much more powerful and friendly with people "
+"reading raw docs than html links. You should probably not use html links "
+"unless you have a good reason to do so (i.e. a single external link), and "
+"you definitely should always use sphinx cross-references for internal links."
+msgstr ""
+"Les referències encreuades de Sphinx són molt més potents i agradables per a"
+" persones que llegeixen documents sense renderitzar que els enllaços html. "
+"Probablement no hauríeu d'utilitzar enllaços html llevat que tingueu una "
+"bona raó per fer-ho (és a dir un sol enllaç extern), i sempre haurieu "
+"d'utilitzar referències encreuades de Sphinx per a enllaços interns."
+
+#: ../core/roles.md:6 3d551d64a0f947729fc44fc73aca8bf1
+msgid ""
+"For more on sphinx cross-references go to {ref}`cross_referencing` page."
+msgstr ""
+"Per més informació sobre referències encreuades de Sphinx visiteu la pàgina "
+"{ref}`cross_referencing`."
+
+#: ../core/roles.md:48 da9b4798b28949e28745da8ab954d8a9
+msgid "**Resources**"
+msgstr "**Recursos**"
+
+#: ../core/roles.md:49 aa3267e3e4614bbaae87a5d78f9f2da2
+msgid "{doc}`Sphinx docs on roles <usage/restructuredtext/roles>`"
+msgstr ""
+"{doc}`documentació de Sphinx sobre rols <usage/restructuredtext/roles>`"
+
+#: ../core/roles.md:50 7c74715a1859457482a4e67a4364a3f4
+msgid ""
+"[readthedocs page on cross-referencing with "
+"sphinx](https://docs.readthedocs.io/en/stable/guides/cross-referencing-with-"
+"sphinx.html)"
+msgstr ""
+"[guia de readthedocs sobre referències encreuades de "
+"Sphinx](https://docs.readthedocs.io/en/stable/guides/cross-referencing-with-"
+"sphinx.html)"

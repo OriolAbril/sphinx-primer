@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Oriol Abril-Pla
+# This file is distributed under the same license as the Sphinx Primer package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx Primer 0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-25 04:50+0200\n"
+"PO-Revision-Date: 2022-02-25 03:07+0000\n"
+"Language-Team: Catalan (https://www.transifex.com/arviz/teams/132759/ca/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../core/conf.md:1 30d2554526984e91b871eab1826d2e7c
+msgid "Doc generation configuration"
+msgstr ""
+
+#: ../core/conf.md:3 c1b4ecb679a04332b129d18d51d072a7
+msgid ""
+"Being Python based, the sphinx build is defined and configured by the "
+"`conf.py` file. This file alone allows to configure the sphinx build process"
+" by setting values to some preset variables."
+msgstr ""
+
+#: ../core/conf.md:7 5745a177306c47a6a8aa0adcedc8c893
+msgid ""
+"It allows for example to add extensions to the build or to customize the "
+"theme, the two concepts detailed in the upcoming pages."
+msgstr ""
+
+#: ../core/conf.md:10 e58eb76b7a5f4428a54916ff8802cd0e
+msgid ""
+"As a contributor to ArviZ or PyMC, chances are you won't need to worry about"
+" this `conf.py`. They are already written and configure the build to suit "
+"our needs so far. However, if you are working on theme layout or want to "
+"configure some extensions, you'll need to edit this file."
+msgstr ""
+
+#: ../core/conf.md:16 539361ea261d433780e6d632527fb9df
+msgid "**Resources**"
+msgstr ""
+
+#: ../core/conf.md:17 427b470771084c19838db4534e129166
+msgid "{ref}`Sphinx docs on configuration <build-config>`"
+msgstr ""

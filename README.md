@@ -17,6 +17,20 @@ The content is written as a sphinx website, with the key navigation controls
 activated so it can be read as a presentation too. To build the page you'll
 need to install the `requirements-docs.txt` and run:
 
-    sphinx-build . _build -b html
+    make html
 
 After that, open the `_build/index.html` file with your preferred browser.
+
+#### Manage translations
+To manage translations you should follow the [guide on readthedocs documentation](https://docs.readthedocs.io/en/stable/guides/manage-translations-sphinx.html)
+with some variations.
+
+1. Translation is set up with Transifex: https://www.transifex.com/arviz/sphinx-primer-website. You
+   should ignore the manual translation section.
+1. `sphinx-build` should not be called manually. Use the equivalent `make` commands:
+
+    ```bash
+    make gettext         # to generate text sources to be translated
+    make html <locale>   # to build non-english docs
+    ```
+

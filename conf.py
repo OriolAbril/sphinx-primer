@@ -24,12 +24,7 @@ templates_path = ["_templates"]
 # MyST related params
 jupyter_execute_notebooks = "auto"
 execution_excludepatterns = ["*.ipynb"]
-myst_enable_extensions = [
-    "colon_fence",
-    "deflist",
-    "dollarmath",
-    "amsmath"
-]
+myst_enable_extensions = ["colon_fence", "deflist", "dollarmath", "amsmath"]
 
 # use numbered figures
 numfig = True
@@ -52,11 +47,23 @@ release = version
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
 language = None
+locale_dirs = ["locale"]
+gettext_uuid = True
+gettext_compact = False
+nb_render_priority = {"gettext": ()}
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
-exclude_patterns = ["_build", "Thumbs.db", ".DS_Store", ".ipynb_checkpoints", "README.md"]
+exclude_patterns = [
+    "_build",
+    "_gettext",
+    "Thumbs.db",
+    ".DS_Store",
+    ".ipynb_checkpoints",
+    "README.md",
+    "core/nesting_example.md",
+]
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = "sphinx"
@@ -90,7 +97,7 @@ html_theme_options = {
     ],
     "navbar_start": ["navbar-logo", "navbar-version"],
     "use_edit_page_button": True,
-    "search_bar_text": "Search presentation..."
+    "search_bar_text": "Search presentation...",
 }
 html_context = {
     "github_user": "OriolAbril",

@@ -1,0 +1,99 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Oriol Abril-Pla
+# This file is distributed under the same license as the Sphinx Primer package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Oriol Abril-Pla <oriol.abril.pla@gmail.com>, 2022
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx Primer 0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-25 08:47+0200\n"
+"PO-Revision-Date: 2022-02-25 03:07+0000\n"
+"Last-Translator: Oriol Abril-Pla <oriol.abril.pla@gmail.com>, 2022\n"
+"Language-Team: Catalan (https://www.transifex.com/arviz/teams/132759/ca/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../index.md:70
+msgid "Sphinx core"
+msgstr "El nucli de Sphinx"
+
+#: ../index.md:1 18196710ee0d4596b1780b240882475c
+msgid "Sphinx primer for ArviZ and PyMC contributors"
+msgstr "Les beceroles de Sphinx per a col·laboradors d'ArviZ i PyMC"
+
+#: ../index.md:1 9f2d4c8a234b4b789f7f1acdb656f875
+msgid "Logo de sphinx"
+msgstr ""
+
+#: ../index.md:3 b410b4e42aeb479883c1522a43f8bf70
+msgid "Sphinx is a documentation generator."
+msgstr "Sphinx és un generador de documentació"
+
+#: ../index.md:10 9172c2c9ea7a439391e3b9e142f8f15f
+msgid ""
+"Sphinx takes raw text content written with a markup language, and it "
+"translates and renders it in an rich output format such as html or pdf."
+msgstr ""
+"Sphinx pren contingut de text en brut escrit amb un llenguatge de marques, i"
+" el tradueix i el renderitza en un format de sortida ric com html o pdf."
+
+#: ../index.md:13 381e6363dbee448da18c191e1465e9aa
+msgid ""
+"The native markup language in Sphinx is rST, however, it is also possible to"
+" use MyST, a superset of markdown thanks to the executablebooks project."
+msgstr ""
+"El llenguatge de marques natiu en Sphinx és rST, però també és possible "
+"utilitzar MyST, un superconjunt de Markdown gràcies al projecte "
+"executablebooks."
+
+#: ../index.md:16 651fac75e98c4605a8983098e43e0386
+msgid ""
+"{numref}`sphinx-diagram` outlines the process by which sphinx generates "
+"documentation. Don't worry if things don't make much sense yet. The key "
+"concept will be explained as they are needed and references to further "
+"reading will also be provided in the coming pages."
+msgstr ""
+"{numref}`sphinx-diagram` esbossa el procés pel qual sphinx genera "
+"documentació. No et preocupis si les coses encara no tenen gaire sentit. El "
+"concepte clau s'explicarà, ja que són necessaris i també es proporcionaran "
+"referències per a lectura addicional en les properes pàgines."
+
+#: ../index.md:21 9f7f486c3e264f9d9ba038fc7372e63e
+msgid "Documentation generation process with Sphinx."
+msgstr "Procés de generació de documentació amb Sphinx."
+
+#: ../index.md:59 3584eaf71b0844fc830a25c003a220b9
+msgid ""
+"ArviZ and PyMC use both rST and MyST, which can be combined without problem "
+"within the same documentation, but the bulk of the content is written in "
+"MyST, with rST being used nearly exclusively for docstrings."
+msgstr ""
+"ArviZ i PyMC utilitzen tant rST com MyST, que es poden combinar sense "
+"problemes dins de la mateixa documentació, però la major part del contingut "
+"està escrit en MyST, amb rST utilitzat gairebé exclusivament per a "
+"_docstrings_."
+
+#: ../index.md:63 51f7c36542704e66b5aefab11bbc26d0
+msgid ""
+"Why MyST? MyST is a markdown superset, therefore pure markdown is also valid"
+" MyST. Markdown is the most common markup language nowadays and both "
+"developers and users of ArviZ and PyMC are familiar with it from sites like "
+"GitHub or Discourse. Moreover, markdown is the markup language used in "
+"Jupyter notebooks. Using MyST also allows us to work indistinctively in "
+"`.md` or `.ipynb` files."
+msgstr ""
+"Per què MyST? MyST és un superconjunt de _Markdown_, per tant _Markdown_ pur"
+" també són marques vàlides en MyST. Markdown és el llenguatge de marques més"
+" comú avui en dia i tant desenvolupadors com usuaris d'ArviZ i PyMC estan "
+"familiaritzats amb ell degut a llocs com GitHub o Discourse. A més, el "
+"_Markdown_ és el llenguatge de marques utilitzat en els quaderns Jupyter. "
+"Usar MyST també ens permet treballar indistintament en fitxers `.md` o "
+"`.ipynb`."

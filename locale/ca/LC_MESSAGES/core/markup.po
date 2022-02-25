@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Oriol Abril-Pla
+# This file is distributed under the same license as the Sphinx Primer package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Oriol Abril-Pla <oriol.abril.pla@gmail.com>, 2022
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx Primer 0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-25 04:50+0200\n"
+"PO-Revision-Date: 2022-02-25 03:07+0000\n"
+"Last-Translator: Oriol Abril-Pla <oriol.abril.pla@gmail.com>, 2022\n"
+"Language-Team: Catalan (https://www.transifex.com/arviz/teams/132759/ca/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../core/markup.md:1 ca441c550f324b2ea58261699a029d7a
+msgid "Markup"
+msgstr "Llenguatge de marques"
+
+#: ../core/markup.md:3 5731722d92e44effa4c002973f55c2b3
+msgid ""
+"The most common and simple formatting actions are supported natively in both"
+" rST and MyST, and if you are reading this, chances are you already know "
+"which syntax to use for things like titles, bullet lists or bold text."
+msgstr ""
+"Les accions de formatació més comunes i simples són suportades de forma "
+"nativa tant en rST com en MyST, i si esteu llegint això, el més probable és "
+"que ja sapigueu quina sintaxi utilitzar per a coses com títols, llistes de "
+"pics o text en negreta."
+
+#: ../core/markup.md:7 cc1ada2d84474e4883cc727490e8e6c2
+msgid ""
+"More complex formatting (or special functionality!) can also be achieved "
+"with roles and directives, two key concepts in sphinx that are covered in "
+"the following pages. The resources below generally combine markup, roles and"
+" directives (without distinguishing if their goal is formatting or not)."
+msgstr ""
+"També es pot aconseguir un format més complex (o funcionalitat especial!) "
+"amb _rols_ i _directrius_, dos conceptes clau en Sphinx que s'expliquen en "
+"les pàgines següents. Els recursos següents generalment combinen llenguatge "
+"de marques, rols i directrius (sense distingir si el seu objectiu és de "
+"format o no)."
+
+#: ../core/markup.md:12 86c1e32548ba443eb8e2c91d8dccc3af
+msgid ""
+"There is one very important aspect that is often overlooked, but that is key"
+" to both rST and MyST, which is that both support indefinite nesting of "
+"markup and directives. See for yourselves:"
+msgstr ""
+"Hi ha un aspecte molt important que sovint es passa per alt, però que és "
+"clau tant per a rST com per a MyST, que és que tots dos permeten imbricar "
+"marques i directrius. Vegeu per vosaltres mateixos:"
+
+#: ../core/markup.md:0 da74b3a890a64f5ca076fb6df3b1195f
+msgid "Rendered content"
+msgstr "Contingut renderitzat"
+
+#: ../core/nesting_example.md:1 48493c95b7b24f39842fa48e9b0a0002
+msgid "We start with a numbered list"
+msgstr "Comencem amb una enumeració"
+
+#: ../core/nesting_example.md:3 047dee4bfe414bf1ade2c89d702808ef
+msgid "Within the list we quote a section of some documentation"
+msgstr "Dins de l'enumeració citem una secció d'alguna documentació"
+
+#: ../core/nesting_example.md:1 c7c56721774b441c97c128b3985d6349
+msgid "The documentation has an info box with some code inside it:"
+msgstr ""
+"La documentació consisteix en una capsa d'informació amb codi a l'interior"
+
+#: ../core/nesting_example.md:13 a76efec21dc34410960a65b4fb9d6292
+msgid ""
+"We continue the list and markdown knows that it's the same list and not a "
+"new one."
+msgstr ""
+"Continuem la llista i _Markdown_ reconeix que és la mateixa llista enlloc de"
+" començar-ne una de nova"
+
+#: ../core/markup.md:0 dbf4fd6a857844c7b00f8ac61eff39f9
+msgid "Raw content"
+msgstr "Contingut en brut"
+
+#: ../core/markup.md:1 e60fbf7f516242b7859ccf474f05a0ad
+msgid "rST"
+msgstr "rST"
+
+#: ../core/markup.md:1 840b3eecff5442068aa4a1c11e7ecb8f
+msgid "MyST"
+msgstr "MyST"
+
+#: ../core/markup.md:1 ef3428793eda40e8b462d5e3901c5247
+msgid "{ref}`rST documentation in Sphinx docs <sphinx:rst-primer>`"
+msgstr "{ref}`guia de rST en la documentació de Sphinx <sphinx:rst-primer>`"
+
+#: ../core/markup.md:1 6fefbcf2a0584d65864814023a574b8b
+msgid ""
+"[MyST-Parser docs](https://myst-parser.readthedocs.io/en/latest/index.html)"
+msgstr ""
+"[documentació de l'intèrpret de MyST](https://myst-"
+"parser.readthedocs.io/en/latest/index.html)"
+
+#: ../core/markup.md:1 559421710794401eace0c31a37793a2e
+msgid ""
+"[rST documentation in Docutils "
+"docs](https://docutils.sourceforge.io/docs/user/rst/quickref.html)"
+msgstr ""
+"[guia de rST a la documentació de "
+"Docutils](https://docutils.sourceforge.io/docs/user/rst/quickref.html)"
+
+#: ../core/markup.md:1 7fa38aab65ca46289f6286e5183e6a2a
+msgid "[MyST-NB docs](https://myst-nb.readthedocs.io/en/latest/)"
+msgstr "[documentació de MyST-NB](https://myst-nb.readthedocs.io/en/latest/)"
+
+#: ../core/markup.md:1 143a4afcd21e413286367ed8b1e5d1f9
+msgid ""
+"[rST cheatsheet by Thomas Cokelaer](https://thomas-"
+"cokelaer.info/tutorials/sphinx/rest_syntax.html)"
+msgstr ""
+"[memoràndum de rST de Thomas Cokelaer](https://thomas-"
+"cokelaer.info/tutorials/sphinx/rest_syntax.html)"
+
+#: ../core/markup.md:1 9130899fb8e64fe99c68b2f953b9bb3c
+msgid ""
+"[MyST cheatsheet in jupyterbook "
+"docs](https://jupyterbook.org/reference/cheatsheet.html)"
+msgstr ""
+"[memoràndum de MyST a la documentació de "
+"jupyterbook](https://jupyterbook.org/reference/cheatsheet.html)"

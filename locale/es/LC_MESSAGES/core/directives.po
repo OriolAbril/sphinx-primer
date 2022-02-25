@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Oriol Abril-Pla
+# This file is distributed under the same license as the Sphinx Primer package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx Primer 0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-25 04:50+0200\n"
+"PO-Revision-Date: 2022-02-25 03:07+0000\n"
+"Language-Team: Spanish (https://www.transifex.com/arviz/teams/132759/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../core/directives.md:1 a974cbf5a554483291dcef1374ce8ac4
+msgid "Directives"
+msgstr ""
+
+#: ../core/directives.md:3 8fe9bc593d694597b946aa8eec538a98
+msgid "Directives are block content with 4 content blocks/arguments:"
+msgstr ""
+
+#: ../core/directives.md:0 6f58c395e80546bb92f37dd3f8df0fed
+msgid "MyST"
+msgstr ""
+
+#: ../core/directives.md:0 44d3f2a82c7948b8b7467737685d659d
+msgid "MyST (colon fence)"
+msgstr ""
+
+#: ../core/directives.md:0 36ff69c4b52c496889628ba898e1a761
+msgid "rST"
+msgstr ""
+
+#: ../core/directives.md:47 fdd8067429634397b2edd650e32704f0
+msgid ""
+"Out of these 4 fields, only the directivename is always required, however, "
+"most directives require the directive name and at least one of main argument"
+" or main content."
+msgstr ""
+
+#: ../core/directives.md:51 6685c02311ee497da837021cf9d2bbb6
+msgid ""
+"As you can see, MyST allows two syntaxes to define directives. Both work "
+"exactly the same, however, using the colon fence option has the advantage of"
+" rendering the main content of the directive as markdown which while only "
+"partially right, can already help get an idea of formatting issues. After "
+"all, markup without roles and directives in MyST is very similar to pure "
+"markdown."
+msgstr ""
+
+#: ../core/directives.md:58 063d3709de9b4efd8fb0e26cced13470
+msgid ""
+"Also note that in MyST, directives are defined with 3 or more "
+"backticks/colons, in order to nest directives, you need to start with more "
+"backticks/colons to avoid syntax errors due to anbiguity about which "
+"directive should be closed."
+msgstr ""
+
+#: ../core/directives.md:62 32eddd960fce4abf8c9ec9e5066bc5ba
+msgid "**Resources**"
+msgstr ""
+
+#: ../core/directives.md:63 489b673f31a746a1ab0ae0e8aafa06a9
+msgid "{doc}`Sphinx docs on directives <usage/restructuredtext/directives>`"
+msgstr ""
+
+#: ../core/directives.md:64 7fdce0b82b944ac5a312ed8bd4b788d5
+msgid ""
+"[MyST documentation on directives](https://myst-"
+"parser.readthedocs.io/en/latest/syntax/syntax.html#directives-a-block-level-"
+"extension-point)"
+msgstr ""

@@ -1,0 +1,116 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Oriol Abril-Pla
+# This file is distributed under the same license as the Sphinx Primer package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Oriol Abril-Pla <oriol.abril.pla@gmail.com>, 2022
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx Primer 0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-25 04:50+0200\n"
+"PO-Revision-Date: 2022-02-25 03:07+0000\n"
+"Last-Translator: Oriol Abril-Pla <oriol.abril.pla@gmail.com>, 2022\n"
+"Language-Team: Catalan (https://www.transifex.com/arviz/teams/132759/ca/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../goals.md:1 cb7e44a4b8b347afbfedb2f3dc044aa2
+msgid "Goals of this primer"
+msgstr "Objectius d'aquesta guia"
+
+#: ../goals.md:3 80c823ea765e4504b94d37521ae5297d
+msgid ""
+"The main focus of this resource is to give only a very general overview of "
+"the sphinx related infrastructure used in ArviZ and PyMC, without explaining"
+" much directly."
+msgstr ""
+"El focus principal d'aquesta guia és donar només una visió general de la "
+"infraestructura relacionada amb Sphinx utilitzada a ArviZ i PyMC, sense "
+"explicar gaire directament."
+
+#: ../goals.md:7 5338b8d11af14747a85f0ad8512515fe
+msgid ""
+"Here are some things you should or should not expect from this resource:"
+msgstr "Alguns exemples del que hauries o no d'esperar d'aquesta guia:"
+
+#: ../goals.md:1 3522323e58a84bf698592629c2358781
+msgid "{fas}`times-circle;sd-text-danger` MyST or rST syntax guides"
+msgstr "{fas}`times-circle;sd-text-danger` guies de sintaxi de MyST o de rST"
+
+#: ../goals.md:2 af8f2683db7d4710ba9a71c4635d1233
+msgid ""
+"{fas}`check-circle;sd-text-success` explanations on why MyST and rST are "
+"important"
+msgstr ""
+"{fas}`check-circle;sd-text-success` explicacions sobre per què MyST i rST "
+"són importants"
+
+#: ../goals.md:3 b27768a444fd4cedbd3119bfb57b0f40
+msgid ""
+"{fas}`times-circle;sd-text-danger` descriptions about which roles and "
+"directives exist"
+msgstr ""
+"{fas}`times-circle;sd-text-danger` descripcions sobre quins _rols_ i quines "
+"_directrius_ existeixen"
+
+#: ../goals.md:4 85ad2157f35a4e82b1c6fb3a961646de
+msgid ""
+"{fas}`check-circle;sd-text-success` explanations on what a role and a "
+"directive are"
+msgstr ""
+"{fas}`check-circle;sd-text-success` explicacions sobre què són els _rols_ i "
+"les _directrius_"
+
+#: ../goals.md:5 9daf67db304d4a32ab5a8412f0d3f8da
+msgid ""
+"{fas}`times-circle;sd-text-danger` explanation on how to configure sphinx "
+"builds"
+msgstr ""
+"{fas}`times-circle;sd-text-danger` explicacions sobre com configurar les "
+"construccions de Sphinx"
+
+#: ../goals.md:6 75815d6b91264f24ae141bb3e9132fce
+msgid ""
+"{fas}`check-circle;sd-text-success` brief explanations on all the terms in "
+"this table and in the intro diagram"
+msgstr ""
+"{fas}`check-circle;sd-text-success` explicacions breus de tots els termes en"
+" aquesta taula i al diagrama introductori"
+
+#: ../goals.md:7 823ac4016f6d45edb2811fe4e0a7b653
+msgid ""
+"{fas}`times-circle;sd-text-danger` tutorials on how to use the extensions "
+"that power ArviZ and PyMC docs"
+msgstr ""
+"{fas}`times-circle;sd-text-danger` tutorials sobre com utilitzar les "
+"extensions que sostenen la documentació d'ArviZ i de PyMC"
+
+#: ../goals.md:8 6cbcddfd4a62475fb8c48d4b55096ac1
+msgid ""
+"{fas}`check-circle;sd-text-success` descriptions about which extensions are "
+"used in ArviZ and PyMC docs and why"
+msgstr ""
+"{fas}`check-circle;sd-text-success` descripcions sobre quines extensions "
+"s'utilitzen en les documentacions d'ArviZ i de PyMC i per què"
+
+#: ../goals.md:20 5b39c6adbc9c4127a7700115d3ff099f
+msgid ""
+"Most of the content will be references to other documentation pages for "
+"sphinx, sphinx extensions, the MyST syntax guide... The value of this "
+"resource is double fold though. It centralizes all these external references"
+" and links to useful documentation in a single place and it explains how all"
+" these fit together to serve the documentation goals at ArviZ and PyMC."
+msgstr ""
+"La major part del contingut serà referència a altres pàgines de documentació"
+" per a sphinx i les seves extensions, la guia de sintaxi MyST... El valor "
+"d'aquesta guia és doble. Centralitza totes aquestes referències externes i "
+"enllaços a la documentació útil en un sol lloc i explica com es combinen "
+"tots els elements relacionats amb Sphinx per servir els objectius de "
+"documentació a ArviZ i PyMC."

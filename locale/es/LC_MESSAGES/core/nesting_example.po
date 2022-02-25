@@ -1,0 +1,36 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Oriol Abril-Pla
+# This file is distributed under the same license as the Sphinx Primer package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx Primer 0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-25 04:50+0200\n"
+"PO-Revision-Date: 2022-02-25 03:07+0000\n"
+"Language-Team: Spanish (https://www.transifex.com/arviz/teams/132759/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../core/nesting_example.md:5 1eb527f955a343eeb79abe541bbb9e5e
+msgid "We start with a numbered list"
+msgstr ""
+
+#: ../core/nesting_example.md:7 118930f1a8f0461fb7534a40cbf961f7
+msgid "Within the list we quote a section of some documentation"
+msgstr ""
+
+#: ../core/nesting_example.md:1 0cf48f3cc9004136bc0262d4958d441c
+msgid "The documentation has an info box with some code inside it:"
+msgstr ""
+
+#: ../core/nesting_example.md:17 37137331848e4087bdd784a2c59af688
+msgid ""
+"We continue the list and markdown knows that it's the same list and not a "
+"new one."
+msgstr ""

@@ -1,0 +1,165 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Oriol Abril-Pla
+# This file is distributed under the same license as the Sphinx Primer package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx Primer 0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-25 04:50+0200\n"
+"PO-Revision-Date: 2022-02-25 03:07+0000\n"
+"Language-Team: Spanish (https://www.transifex.com/arviz/teams/132759/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../beyond/cross_referencing.md:2 ff283f4c69d3411cb7328a0d806486d9
+msgid "Cross-referencing in sphinx"
+msgstr ""
+
+#: ../beyond/cross_referencing.md:3 96e020edab4d41a691fdbb62f162d2b0
+msgid ""
+"The [page from the readthedocs "
+"team](https://docs.readthedocs.io/en/stable/guides/cross-referencing-with-"
+"sphinx.html) is an amazing resource which also covers "
+"[intersphinx](https://docs.readthedocs.io/en/stable/guides/intersphinx.html)."
+" However, it is focused on the `ref` and `doc` roles, and omits all roles "
+"related to code referencing which are also key for ArviZ and PyMC docs."
+msgstr ""
+
+#: ../beyond/cross_referencing.md:9 78ea705eca8e4b07b98eb466c2d49545
+msgid ""
+"All objects and modules documented with `autodoc` and `autosummary` can be "
+"referenced with [special cross referencing roles](https://www.sphinx-"
+"doc.org/en/master/usage/restructuredtext/domains.html#cross-referencing-"
+"python-objects)."
+msgstr ""
+
+#: ../beyond/cross_referencing.md:1 6fd6a2f3e728489092df6275c0d9e4fb
+msgid ""
+"This is done because `autodoc` and `autosummary` use special [python domain "
+"directives](https://www.sphinx-"
+"doc.org/en/master/usage/restructuredtext/domains.html#the-python-domain) "
+"under the hood to generate ids and populate the cross-referencing roles "
+"specific to code objects."
+msgstr ""
+
+#: ../beyond/cross_referencing.md:6 f971d53152ad42c8b644600f5957c223
+msgid ""
+"As all this is automated you don't need to learn nor worry about that unless"
+" you wanted to document some method of function manually. i.e. to include a "
+"private object in the docs that would otherwise be ignored by autosummary."
+msgstr ""
+
+#: ../beyond/cross_referencing.md:25 9abf6981bf494a8593f4802efce52f48
+msgid "Therefore, the syntax for cross-referencing roles is:"
+msgstr ""
+
+#: ../beyond/cross_referencing.md:0 535f2f7390a04d48b84ced497bd4a28f
+msgid "MyST"
+msgstr ""
+
+#: ../beyond/cross_referencing.md:1 ../beyond/cross_referencing.md:1
+#: 02d572230e514770978bd646bffa0d11 f1a99b592e0d456f840e21197db4e127
+msgid "Default text"
+msgstr ""
+
+#: ../beyond/cross_referencing.md:2 021a1368cfd64ca1bae6799cb1faeb50
+msgid "`` {(domain:)type_id}`(intersphinx_key:)reference_id` ``"
+msgstr ""
+
+#: ../beyond/cross_referencing.md:3 ../beyond/cross_referencing.md:3
+#: 6f54efe9f836429ca0d35cf15eb7130d d85a4221d6b74005853c5938628e6177
+msgid "Custom Text"
+msgstr ""
+
+#: ../beyond/cross_referencing.md:4 520d9c9b6bec4a54a0a2642f3e1a602d
+msgid "`` {(domain:)type_id}`Custom text <(intersphinx_key:)reference_id>` ``"
+msgstr ""
+
+#: ../beyond/cross_referencing.md:0 69d14c9d3b334e8f8e4c6f7ef3b347eb
+msgid "rST"
+msgstr ""
+
+#: ../beyond/cross_referencing.md:2 7d4c5a46df6e425fb129930f4acf1910
+msgid "`` :(domain:)type_id:`(intersphinx_key:)reference_id` ``"
+msgstr ""
+
+#: ../beyond/cross_referencing.md:4 0813e6597bda46859112c3890fbd24fa
+msgid "`` :(domain:)type_id:`Custom text <(intersphinx_key:)reference_id>` ``"
+msgstr ""
+
+#: ../beyond/cross_referencing.md:52 e18029f4cc7f4075b84ef1913ba61aed
+msgid ""
+"Where the parts `(domain:)` and `(intersphinx_key:)` are between parenthesis"
+" to indicate they are optional, when used there should be no parenthesis."
+msgstr ""
+
+#: ../beyond/cross_referencing.md:55 4eed9eae8d1b4db4a36c77f67dad6795
+msgid "Here are some extra notes related to cross-referencing."
+msgstr ""
+
+#: ../beyond/cross_referencing.md:57 f8ef7ba5767a486683880f0a4ee51ea2
+msgid ""
+"With code type references, `~` can be used before the id in order to show "
+"only the object name instead of the whole import path:"
+msgstr ""
+
+#: ../beyond/cross_referencing.md:1 d70cb4bfd35f4600898f3593017dfeaa
+msgid "Source"
+msgstr ""
+
+#: ../beyond/cross_referencing.md:2 2efb467fdad542af961b13f00c656c18
+msgid "Rendered link"
+msgstr ""
+
+#: ../beyond/cross_referencing.md:3 9d9f0f91131d4a3a91fce3eee50f0a65
+msgid "`` {mod}`sphinx.ext.autosummary` ``"
+msgstr ""
+
+#: ../beyond/cross_referencing.md:4 a9ac09c3b2b943acb12f06e3ed85d034
+msgid "{mod}`sphinx.ext.autosummary`"
+msgstr ""
+
+#: ../beyond/cross_referencing.md:5 ee142f6376684d37a7f1c1170e6ac27d
+msgid "`` {mod}`~sphinx.ext.autosummary` ``"
+msgstr ""
+
+#: ../beyond/cross_referencing.md:6 e6d506a2dbbb46ce9b69d887e1babc8b
+msgid "{mod}`~sphinx.ext.autosummary`"
+msgstr ""
+
+#: ../beyond/cross_referencing.md:70 6f66da95657848cd90c7b1957c708f9f
+msgid ""
+"The complete type is not necessary unless there was ambiguity in the "
+"reference. Ambiguity in this context would mean a python and a c++ function "
+"with the same import path so that `` {func}`pymc.sample` `` could be either "
+"of them and so using `` {py:func}`pymc.sample` `` is necessary."
+msgstr ""
+
+#: ../beyond/cross_referencing.md:75 f48a71a8f69f426e82175303a2d68d5c
+msgid ""
+"If using intersphinx, all ids from all linked docs are available "
+"automatically. The intersphinx keys defined in the variable "
+"`intersphinx_mappings` in `conf.py` are again only necessary in the case of "
+"ambiguity. In practice this means that the intersphinx keys won't never be "
+"necessary for code references but are recommended for `ref` and `doc` type "
+"references, maybe `term` if multiple of the linked docs have a glossary "
+"available."
+msgstr ""
+
+#: ../beyond/cross_referencing.md:1 c7b983d989264127975d06569324a234
+msgid ""
+"Use [`sphobjinv`](https://sphobjinv.readthedocs.io/en/latest/) library to "
+"explore the available reference ids and their types."
+msgstr ""
+
+#: ../beyond/cross_referencing.md:4 573df938be074d7d94dbf3794f62ba61
+msgid ""
+"Note however that the types shown sometimes needs converting to the actual "
+"role name which is generally an abbreviated version of the object type."
+msgstr ""
