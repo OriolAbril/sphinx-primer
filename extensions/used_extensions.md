@@ -22,7 +22,6 @@
 * [`sphinx_design`](https://sphinx-design.readthedocs.io/en/sbt-theme/) adds
   multiple roles and directives for formatting options such as grids,
   tabs or cards based on bootstrap, octicon and font awesome icons...
-* `sphinx_panels` deprecated and being replaced by `sphinx_design`
 * [`sphinx_copybutton`](https://sphinx-copybutton.readthedocs.io/en/latest/)
   automatically adds a copy icon to all code blocks.
 * [`sphinx_togglebutton`](https://sphinx-togglebutton.readthedocs.io/en/latest/) (pulled in under the hood by `myst_nb`) makes extra

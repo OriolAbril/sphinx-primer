@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Sphinx Primer 0.2\n"
+"Project-Id-Version: Sphinx Primer 0.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-25 08:47+0200\n"
+"POT-Creation-Date: 2022-02-26 00:51+0200\n"
 "PO-Revision-Date: 2022-02-25 03:07+0000\n"
 "Last-Translator: Oriol Abril-Pla <oriol.abril.pla@gmail.com>, 2022\n"
 "Language-Team: Catalan (https://www.transifex.com/arviz/teams/132759/ca/)\n"
@@ -25,19 +25,19 @@ msgstr ""
 msgid "Sphinx core"
 msgstr "El nucli de Sphinx"
 
-#: ../index.md:1 18196710ee0d4596b1780b240882475c
+#: ../index.md:1 a63d0ae720b84d9d91c3554a790b212f
 msgid "Sphinx primer for ArviZ and PyMC contributors"
 msgstr "Les beceroles de Sphinx per a col·laboradors d'ArviZ i PyMC"
 
-#: ../index.md:1 9f2d4c8a234b4b789f7f1acdb656f875
-msgid "Logo de sphinx"
-msgstr ""
+#: ../index.md:1 cf88e5ba4c0b40218a47a148d74706d3
+msgid "sphinx logo"
+msgstr "Logo de sphinx"
 
-#: ../index.md:3 b410b4e42aeb479883c1522a43f8bf70
+#: ../index.md:3 17e283a5cc3848f5a8d40e1acf09eac6
 msgid "Sphinx is a documentation generator."
 msgstr "Sphinx és un generador de documentació"
 
-#: ../index.md:10 9172c2c9ea7a439391e3b9e142f8f15f
+#: ../index.md:10 2e31d70dc0024ecf8d21d4cc87ef63fa
 msgid ""
 "Sphinx takes raw text content written with a markup language, and it "
 "translates and renders it in an rich output format such as html or pdf."
@@ -45,7 +45,7 @@ msgstr ""
 "Sphinx pren contingut de text en brut escrit amb un llenguatge de marques, i"
 " el tradueix i el renderitza en un format de sortida ric com html o pdf."
 
-#: ../index.md:13 381e6363dbee448da18c191e1465e9aa
+#: ../index.md:13 e8ada46a23214bba926e9b1d67a2385d
 msgid ""
 "The native markup language in Sphinx is rST, however, it is also possible to"
 " use MyST, a superset of markdown thanks to the executablebooks project."
@@ -54,7 +54,7 @@ msgstr ""
 "utilitzar MyST, un superconjunt de Markdown gràcies al projecte "
 "executablebooks."
 
-#: ../index.md:16 651fac75e98c4605a8983098e43e0386
+#: ../index.md:16 4da3fe6d900440f2a4bee25b69834806
 msgid ""
 "{numref}`sphinx-diagram` outlines the process by which sphinx generates "
 "documentation. Don't worry if things don't make much sense yet. The key "
@@ -66,11 +66,11 @@ msgstr ""
 "concepte clau s'explicarà, ja que són necessaris i també es proporcionaran "
 "referències per a lectura addicional en les properes pàgines."
 
-#: ../index.md:21 9f7f486c3e264f9d9ba038fc7372e63e
+#: ../index.md:21 a0e2edd683f94993aaf026980feb203b
 msgid "Documentation generation process with Sphinx."
 msgstr "Procés de generació de documentació amb Sphinx."
 
-#: ../index.md:59 3584eaf71b0844fc830a25c003a220b9
+#: ../index.md:59 2deae54eabb143eab8dcb70f20d22996
 msgid ""
 "ArviZ and PyMC use both rST and MyST, which can be combined without problem "
 "within the same documentation, but the bulk of the content is written in "
@@ -81,7 +81,7 @@ msgstr ""
 "està escrit en MyST, amb rST utilitzat gairebé exclusivament per a "
 "_docstrings_."
 
-#: ../index.md:63 51f7c36542704e66b5aefab11bbc26d0
+#: ../index.md:63 b4fb35e90698413281bbcde4b4d0125b
 msgid ""
 "Why MyST? MyST is a markdown superset, therefore pure markdown is also valid"
 " MyST. Markdown is the most common markup language nowadays and both "

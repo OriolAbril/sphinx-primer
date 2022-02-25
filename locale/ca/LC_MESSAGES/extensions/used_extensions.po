@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Sphinx Primer package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Oriol Abril-Pla <oriol.abril.pla@gmail.com>, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Sphinx Primer 0.2\n"
+"Project-Id-Version: Sphinx Primer 0.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-25 04:50+0200\n"
+"POT-Creation-Date: 2022-02-26 01:02+0200\n"
 "PO-Revision-Date: 2022-02-25 03:07+0000\n"
+"Last-Translator: Oriol Abril-Pla <oriol.abril.pla@gmail.com>, 2022\n"
 "Language-Team: Catalan (https://www.transifex.com/arviz/teams/132759/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,68 +21,78 @@ msgstr ""
 "Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../extensions/used_extensions.md:1 082fa5f67aa1402e97b096d3de2a1a61
+#: ../extensions/used_extensions.md:1 fabd7a5b9ed04a68a421655956fa99cd
 msgid "Extensions in ArviZ and PyMC"
-msgstr ""
+msgstr "Extensions a ArviZ i a PyMC"
 
-#: ../extensions/used_extensions.md:2 ae01f1af43fd4803b9f7d4ddaef16a00
+#: ../extensions/used_extensions.md:2 4496ff53a6ac436597e90a98e6c792ba
 msgid "Built in extensions"
-msgstr ""
+msgstr "Extensions integrades"
 
-#: ../extensions/used_extensions.md:3 eded40ada0984641b05ead7bbbbec8be
+#: ../extensions/used_extensions.md:3 25e159a390984587a379409711c122cf
 msgid ""
 "{doc}`Built in extensions <sphinx:usage/extensions/index>` are prefixed with"
 " `sphinx.ext.`"
 msgstr ""
+"Les {doc}`extensions integrades <sphinx:usage/extensions/index>` utilitzen "
+"el prefix `sphinx.ext.`"
 
-#: ../extensions/used_extensions.md:4 63697b76e34944779d730f487af7bd70
+#: ../extensions/used_extensions.md:4 5ea17620f76440929193ec3a1f0e271c
 msgid ""
 "{mod}`~sphinx.ext.autodoc` and {mod}`~sphinx.ext.autosummary` allow "
 "automating the process of including docstrings into the documentation."
 msgstr ""
+"{mod}`~sphinx.ext.autodoc` i {mod}`~sphinx.ext.autosummary` automatitzen la "
+"inclusió de _docstrings_ a la documentació."
 
-#: ../extensions/used_extensions.md:6 bed64079fae14c868e23f9b1c9599baf
+#: ../extensions/used_extensions.md:6 9af0bf614f6d41c89dba704c6443ed06
 msgid ""
 "{mod}`~sphinx.ext.viewcode` adds the `[source]` link to the API pages "
 "generated with `autosummary`"
 msgstr ""
+"{mod}`~sphinx.ext.viewcode` afegeix l'enllaç `[source]` a les pàgines de la "
+"API generades amb `autosummary`"
 
-#: ../extensions/used_extensions.md:8 4e46810978b54f67b80fb296e3ba9279
+#: ../extensions/used_extensions.md:8 e2fb96b3307948fdb3c1eb6cadc844af
 msgid ""
 "{mod}`~sphinx.ext.mathjax` invoques mathjax so that math is rendered "
 "correctly in html."
 msgstr ""
+"{mod}`~sphinx.ext.mathjax` configura mathjax per tal que les fórmules "
+"matemàtiques es vegin correctament en format html."
 
-#: ../extensions/used_extensions.md:9 9b1255dde9484bc2a91ac166fbb501a0
+#: ../extensions/used_extensions.md:9 6f9de9a877c649edb4fdb0ea6067f4de
 msgid ""
 "{mod}`~sphinx.ext.intersphinx` allows cross-referencing pages from other "
 "documentations."
 msgstr ""
+"{mod}`~sphinx.ext.intersphinx` permet referències encreuades a pàgines de "
+"documentacions externes."
 
-#: ../extensions/used_extensions.md:10 6ec6c1d3296b4f458cd7f26a5dfbe2ba
-msgid ""
-"{mod}`~sphinx.ext.napoleon` parses numpy style docstrings. I think it's the "
-"same as numpydoc and that we only need one of them."
-msgstr ""
-
-#: ../extensions/used_extensions.md:13 63cd1b3b4df341508bdfb7ae70f17ffa
+#: ../extensions/used_extensions.md:11 a8a968242f704bb88651026a659fa5bf
 msgid "External extensions"
-msgstr ""
+msgstr "Extensions externes"
 
-#: ../extensions/used_extensions.md:14 784bc9b7195640d6a00f8aeb0e4b717c
+#: ../extensions/used_extensions.md:12 fcef1cea50744d97939c5782c87ee9e6
 msgid ""
-"[`numpydoc`](https://numpydoc.readthedocs.io/en/latest/) same comment as "
-"`napoleon`"
+"[`numpydoc`](https://numpydoc.readthedocs.io/en/latest/) parses docstrings "
+"written in NumPy style."
 msgstr ""
+"[`numpydoc`](https://numpydoc.readthedocs.io/en/latest/) interpreta els "
+"_docstrings_ escrits amb l'estil NumPy"
 
-#: ../extensions/used_extensions.md:15 fe27e3381e1946c89f28605bb535fc97
+#: ../extensions/used_extensions.md:13 9be379d451874e028f17273b9a388d55
 msgid ""
 "[`IPython`](https://ipython.readthedocs.io/en/stable/sphinxext.html) "
 "extensions add directives for code that is automatically executed when "
 "building the docs as well as highlighting for those code blocks."
 msgstr ""
+"Les extensions de "
+"[`IPython`](https://ipython.readthedocs.io/en/stable/sphinxext.html) "
+"afegeixen directrius per incloure codi executat automaticament en construir "
+"la documentació i ressaltament per a aquests blocs de codi."
 
-#: ../extensions/used_extensions.md:18 bb95b13e9dcd4d1fbdc70153676a580a
+#: ../extensions/used_extensions.md:16 11b53ae5f2774d5da235e836bd01550f
 msgid ""
 "[`matplotlib.sphinxext.plot_directive`](https://matplotlib.org/stable/api/sphinxext_plot_directive_api.html)"
 " and "
@@ -86,32 +100,41 @@ msgid ""
 "bokeh.sphinxext.bokeh_plot) add directive that embed plots into the "
 "documentation."
 msgstr ""
+"[`matplotlib.sphinxext.plot_directive`](https://matplotlib.org/stable/api/sphinxext_plot_directive_api.html)"
+" i "
+"[`bokeh.sphinxext.bokeh_plot`](https://docs.bokeh.org/en/latest/docs/reference/sphinxext.html#module-"
+"bokeh.sphinxext.bokeh_plot) afegeixen directrius per incrustar gràfiques a "
+"la documentació."
 
-#: ../extensions/used_extensions.md:21 8a7ac9452978413bbfd9b530a5d03aec
+#: ../extensions/used_extensions.md:19 61658c30b5274924a36105bee648f273
 msgid ""
 "[`myst`](https://myst-parser.readthedocs.io/en/latest/) and "
 "[`myst_nb`](https://myst-parser.readthedocs.io/en/latest/) allow sphinx to "
 "parse `.md` and `.ipynb` files."
 msgstr ""
+"[`myst`](https://myst-parser.readthedocs.io/en/latest/) i "
+"[`myst_nb`](https://myst-parser.readthedocs.io/en/latest/) permeten a Sphinx"
+" interpretar fitxers `.md` i `.ipynb`."
 
-#: ../extensions/used_extensions.md:24 0518cfeef60448b79f77eb6fcf961033
+#: ../extensions/used_extensions.md:22 bf3f754543a948a883f379fa06755e16
 msgid ""
 "[`sphinx_design`](https://sphinx-design.readthedocs.io/en/sbt-theme/) adds "
 "multiple roles and directives for formatting options such as grids, tabs or "
 "cards based on bootstrap, octicon and font awesome icons..."
 msgstr ""
+"[`sphinx_design`](https://sphinx-design.readthedocs.io/en/sbt-theme/) "
+"afegeix varis rols i directrius per formatació com ara quadrícules, "
+"pestanyes o cartes basades en bootstrap, icones d'octicon i font awesome..."
 
-#: ../extensions/used_extensions.md:27 cf56b43216f2486cb1689587bd90d187
-msgid "`sphinx_panels` deprecated and being replaced by `sphinx_design`"
-msgstr ""
-
-#: ../extensions/used_extensions.md:28 9598b92b67664c65bd73a4d7ec4e3900
+#: ../extensions/used_extensions.md:25 4d574e47b4134288bb04504d4d1204b6
 msgid ""
 "[`sphinx_copybutton`](https://sphinx-copybutton.readthedocs.io/en/latest/) "
 "automatically adds a copy icon to all code blocks."
 msgstr ""
+"[`sphinx_copybutton`](https://sphinx-copybutton.readthedocs.io/en/latest/) "
+"afegeix automàticament una icona per copiar blocs de codi amb un clic."
 
-#: ../extensions/used_extensions.md:30 ac407717950b48399c0a78590baeec18
+#: ../extensions/used_extensions.md:27 d769a653760a40ee8c54ab4cb863a3ba
 msgid ""
 "[`sphinx_togglebutton`](https://sphinx-"
 "togglebutton.readthedocs.io/en/latest/) (pulled in under the hood by "
@@ -119,48 +142,49 @@ msgid ""
 "code cells in order to add \"toggle buttons\" and collapse content."
 msgstr ""
 
-#: ../extensions/used_extensions.md:33 f0801af18b284064848799d0361442b9
+#: ../extensions/used_extensions.md:30 608be3dd3d9744388a2c9b202ad9ca60
 msgid ""
 "[`notfound.extension`](https://sphinx-notfound-"
 "page.readthedocs.io/en/latest/) improves the support for a custom 404 error "
 "page, specially when hosting on GitHub pages or ReadTheDocs."
 msgstr ""
 
-#: ../extensions/used_extensions.md:36 7aaf947d667443b3ab82441eadf0141b
+#: ../extensions/used_extensions.md:33 609b948f106040b5a829fbb171b0629e
 msgid ""
 "[`ablog`](https://ablog.readthedocs.io/en/latest/) adds a post directive to "
 "include tags, categories, date posted... to pages and automatically builds "
 "archives, tag word clouds..."
 msgstr ""
 
-#: ../extensions/used_extensions.md:38 21bed06c21df43109ba143102007b8e6
+#: ../extensions/used_extensions.md:35 3667c0a4a2a94d4ba2b1779b77f2a913
 msgid ""
 "[`sphinxcontrib.bibtex`](https://sphinxcontrib-"
 "bibtex.readthedocs.io/en/latest/) adds roles and directive for latex-like "
 "citation capabilities and support for bibtex format references."
 msgstr ""
 
-#: ../extensions/used_extensions.md:42 2897fa390cf94e54a2d825246d6e97e4
+#: ../extensions/used_extensions.md:37 336b1780b79b49aabd6923ef25ac6819
+msgid ""
+"[`sphinx-codeautolink`](https://sphinx-"
+"codeautolink.readthedocs.io/en/latest/index.html) automatic links in code "
+"blocks"
+msgstr ""
+
+#: ../extensions/used_extensions.md:41 49af13a4d54641d597d8fe77467b2146
 msgid "\"Homemade\" extensions"
 msgstr ""
 
-#: ../extensions/used_extensions.md:43 d1a09d59fe10445d90bb179ebfbbdf1b
+#: ../extensions/used_extensions.md:42 a0827640409949e7be8bcf53dc3ff7b4
 msgid ""
 "Even though these are part of the ArviZ/PyMC codebase, you should expect to "
 "work on these extensions even less often than working on `conf.py`."
 msgstr ""
 
-#: ../extensions/used_extensions.md:45 0c23be0c85404faf8f0e131cd255459f
+#: ../extensions/used_extensions.md:44 e3a6300cdc034280bb80f269b72342e7
 msgid ""
 "[`gallery_generator`](https://github.com/arviz-"
 "devs/arviz/blob/main/doc/sphinxext/gallery_generator.py) (ArviZ) runs all "
 "the files within the `examples/` folder and automatically builds the "
 "[Example gallery](https://arviz-devs.github.io/arviz/examples/index.html) "
-"page from them."
-msgstr ""
-
-#: ../extensions/used_extensions.md:48 f15e22bd70b94c3596754117e3320e03
-msgid ""
-"(soon to be removed) `gallery_generator` (PyMC) generates some javascript "
-"code that creates cards for the Tutorials and Examples sections."
+"page from them. for the Tutorials and Examples sections."
 msgstr ""
