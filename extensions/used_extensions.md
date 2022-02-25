@@ -7,8 +7,6 @@
   `autosummary`
 * {mod}`~sphinx.ext.mathjax` invoques mathjax so that math is rendered correctly in html.
 * {mod}`~sphinx.ext.intersphinx` allows cross-referencing pages from other documentations.
-* {mod}`~sphinx.ext.napoleon` parses numpy style docstrings. I think it's the same as numpydoc and
-  that we only need one of them.
 
 ## External extensions
 * [`numpydoc`](https://numpydoc.readthedocs.io/en/latest/) parses docstrings written in NumPy style.
