@@ -1,7 +1,5 @@
 # Extensions to look out for
 
-* [`sphinx-codeautolink`](https://sphinx-codeautolink.readthedocs.io/en/latest/index.html) automatic
-  links in code blocks
 * [`sphinx-hoverxref`](https://sphinx-hoverxref.readthedocs.io/en/latest/) hover tooltips for sphinx
   references such as glossary definitions on glossary terms
 * [`sphinx-comments`](https://sphinx-comments.readthedocs.io/en/latest/) integration of sphinx with
@@ -16,4 +14,3 @@
 * [`spelling`](https://github.com/sphinx-contrib/spelling)
 * [`doxylink`](https://github.com/sphinx-contrib/doxylink)
 * [`redirects`](https://github.com/sphinx-contrib/redirects)
-

@@ -11,7 +11,7 @@
   that we only need one of them.
 
 ## External extensions
-* [`numpydoc`](https://numpydoc.readthedocs.io/en/latest/) same comment as `napoleon`
+* [`numpydoc`](https://numpydoc.readthedocs.io/en/latest/) parses docstrings written in NumPy style.
 * [`IPython`](https://ipython.readthedocs.io/en/stable/sphinxext.html) extensions add
   directives for code that is automatically executed when
   building the docs as well as highlighting for those code blocks.
@@ -37,6 +37,8 @@
   tags, categories, date posted... to pages and automatically builds archives, tag word clouds...
 * [`sphinxcontrib.bibtex`](https://sphinxcontrib-bibtex.readthedocs.io/en/latest/) adds
   roles and directive for latex-like citation capabilities and support for bibtex format references.
+* [`sphinx-codeautolink`](https://sphinx-codeautolink.readthedocs.io/en/latest/index.html) automatic
+  links in code blocks
 
 
 ## "Homemade" extensions
@@ -45,5 +47,4 @@ these extensions even less often than working on `conf.py`.
 * [`gallery_generator`](https://github.com/arviz-devs/arviz/blob/main/doc/sphinxext/gallery_generator.py)
   (ArviZ) runs all the files within the `examples/` folder and automatically builds the
   [Example gallery](https://arviz-devs.github.io/arviz/examples/index.html) page from them.
-* (soon to be removed) `gallery_generator` (PyMC) generates some javascript code that creates cards
   for the Tutorials and Examples sections.
