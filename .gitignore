@@ -71,7 +71,6 @@ instance/
 # Sphinx documentation
 _build/
 _gettext/
-.tx/
 
 # PyBuilder
 target/
