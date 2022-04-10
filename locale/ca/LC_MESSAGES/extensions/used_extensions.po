@@ -141,6 +141,10 @@ msgid ""
 "`myst_nb`) makes extra arguments and tags available for some directives and "
 "code cells in order to add \"toggle buttons\" and collapse content."
 msgstr ""
+"[`sphinx_togglebutton`](https://sphinx-"
+"togglebutton.readthedocs.io/en/latest/) (pulled in under the hood by "
+"`myst_nb`) activa arguments i etiquetes en certes directrius i cel·les de "
+"codi per tal d'afegir \"botons commutadors\" o amagar contingut."
 
 #: ../extensions/used_extensions.md:30 608be3dd3d9744388a2c9b202ad9ca60
 msgid ""
@@ -148,6 +152,10 @@ msgid ""
 "page.readthedocs.io/en/latest/) improves the support for a custom 404 error "
 "page, specially when hosting on GitHub pages or ReadTheDocs."
 msgstr ""
+"[`notfound.extension`](https://sphinx-notfound-"
+"page.readthedocs.io/en/latest/) millora el suport per pàgines d'error 404 "
+"personalitzades, especialment quan la web de la documentació està allotjada "
+"a GitHub pages o a ReadTheDocs."
 
 #: ../extensions/used_extensions.md:33 609b948f106040b5a829fbb171b0629e
 msgid ""
@@ -155,6 +163,9 @@ msgid ""
 "include tags, categories, date posted... to pages and automatically builds "
 "archives, tag word clouds..."
 msgstr ""
+"[`ablog`](https://ablog.readthedocs.io/en/latest/) afegeix una directriu "
+"\"post\" per a publicacions que permet incloure etiquetes, categories, data "
+"de publicació i crea arxius automàticament, núvols d'etiquetes..."
 
 #: ../extensions/used_extensions.md:35 3667c0a4a2a94d4ba2b1779b77f2a913
 msgid ""
@@ -162,6 +173,10 @@ msgid ""
 "bibtex.readthedocs.io/en/latest/) adds roles and directive for latex-like "
 "citation capabilities and support for bibtex format references."
 msgstr ""
+"[`sphinxcontrib.bibtex`](https://sphinxcontrib-"
+"bibtex.readthedocs.io/en/latest/) afegeix rols i directrius per a "
+"funcionalitats de citació a l'estil latex i suport per referències en format"
+" bibtex."
 
 #: ../extensions/used_extensions.md:37 336b1780b79b49aabd6923ef25ac6819
 msgid ""
@@ -169,16 +184,21 @@ msgid ""
 "codeautolink.readthedocs.io/en/latest/index.html) automatic links in code "
 "blocks"
 msgstr ""
+"[`sphinx-codeautolink`](https://sphinx-"
+"codeautolink.readthedocs.io/en/latest/index.html) enllaços automàtics en "
+"blocs de codi."
 
 #: ../extensions/used_extensions.md:41 49af13a4d54641d597d8fe77467b2146
 msgid "\"Homemade\" extensions"
-msgstr ""
+msgstr "Extensions \"casolanes\""
 
 #: ../extensions/used_extensions.md:42 a0827640409949e7be8bcf53dc3ff7b4
 msgid ""
 "Even though these are part of the ArviZ/PyMC codebase, you should expect to "
 "work on these extensions even less often than working on `conf.py`."
 msgstr ""
+"Tot i que formen part del codi d'ArviZ/PyMC, s'hauria d'esperar treballar en"
+" aquestes extensions encara menys sovint que treballar en `conf.py`."
 
 #: ../extensions/used_extensions.md:44 e3a6300cdc034280bb80f269b72342e7
 msgid ""
