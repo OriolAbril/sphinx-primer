@@ -1,6 +1,4 @@
-import os
-import sys
-from typing import Dict, Any
+from pathlib import Path
 
 # -- General configuration ------------------------------------------------
 
@@ -15,6 +13,7 @@ extensions = [
     "myst_nb",
     "sphinx_copybutton",
     "sphinx_design",
+    "sphinxext.rediraffe",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -25,6 +24,10 @@ templates_path = ["_templates"]
 jupyter_execute_notebooks = "auto"
 execution_excludepatterns = ["*.ipynb"]
 myst_enable_extensions = ["colon_fence", "deflist", "dollarmath", "amsmath"]
+
+rediraffe_redirects = {
+    "index.md": "goals.md",
+}
 
 # use numbered figures
 numfig = True
@@ -129,3 +132,22 @@ intersphinx_mapping = {
     "numpy": ("https://numpy.org/doc/stable/", None),
     "sphinx": ("https://www.sphinx-doc.org/en/master/", None),
 }
+
+def remove_index(app):
+    """
+    This removes the index pages so rediraffe generates the redirect placeholder
+    It needs to be present initially for the toctree as it defines the navbar.
+    """
+
+    index_file = Path(app.outdir) / "index.html"
+    index_file.unlink()
+
+    app.env.project.docnames -= {"index"}
+    yield "", {}, "layout.html"
+
+def setup(app):
+    """
+    Add extra step to sphinx build
+    """
+
+    app.connect("html-collect-pages", remove_index, 100)
