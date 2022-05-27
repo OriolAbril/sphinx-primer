@@ -13,4 +13,4 @@
 * [`perfectviz`](https://github.com/sphinx-contrib/prefectviz)
 * [`spelling`](https://github.com/sphinx-contrib/spelling)
 * [`doxylink`](https://github.com/sphinx-contrib/doxylink)
-* [`redirects`](https://github.com/sphinx-contrib/redirects)
+* [`rediraffe`](https://github.com/wpilibsuite/sphinxext-rediraffe) redirects between doc pages
