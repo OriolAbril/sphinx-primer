@@ -1,6 +1,4 @@
 import os
-import sys
-from typing import Dict, Any
 
 # -- General configuration ------------------------------------------------
 
@@ -46,7 +44,7 @@ release = version
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = "en"
+language = None
 locale_dirs = ["locale"]
 gettext_uuid = True
 gettext_compact = False
@@ -100,7 +98,7 @@ html_theme_options = {
     "search_bar_text": "Search presentation...",
     "switcher": {
         "json_url": "https://sphinx-primer.readthedocs.io/en/latest/_static/switcher.json",
-        "version_match": language
+        "version_match": os.environ.get("READTHEDOCS_LANGUAGE", "en")
     },
 }
 html_context = {
