@@ -18,7 +18,7 @@ extensions = [
 ]
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ["_templates"]
+# templates_path = ["_templates"]
 #
 
 # MyST related params
@@ -46,7 +46,7 @@ release = version
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = "en"
 locale_dirs = ["locale"]
 gettext_uuid = True
 gettext_compact = False
@@ -95,9 +95,13 @@ html_theme_options = {
             "icon": "fab fa-twitter-square",
         },
     ],
-    "navbar_start": ["navbar-logo", "navbar-version"],
+    "navbar_start": ["navbar-logo", "version-switcher"],
     "use_edit_page_button": True,
     "search_bar_text": "Search presentation...",
+    "switcher": {
+        "json_url": "https://sphinx-primer.readthedocs.io/en/latest/_static/switcher.json",
+        "version_match": language
+    },
 }
 html_context = {
     "github_user": "OriolAbril",
