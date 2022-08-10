@@ -1,5 +1,8 @@
 import os
 
+from docutils.parsers.rst.directives.admonitions import BaseAdmonition
+from docutils import nodes
+
 # -- General configuration ------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
@@ -98,7 +101,7 @@ html_theme_options = {
     "search_bar_text": "Search presentation...",
     "switcher": {
         "json_url": "https://sphinx-primer.readthedocs.io/en/latest/_static/switcher.json",
-        "version_match": os.environ.get("READTHEDOCS_LANGUAGE", "en")
+        "version_match": os.environ.get("READTHEDOCS_LANGUAGE", "en"),
     },
 }
 html_context = {
@@ -113,6 +116,7 @@ html_context = {
 # so a file named "default.css" will overwrite the builtin "default.css".
 # html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 html_static_path = ["_static"]
+html_css_files = ["custom.css"]
 
 # -- Options for HTMLHelp output ------------------------------------------
 
@@ -131,3 +135,22 @@ intersphinx_mapping = {
     "numpy": ("https://numpy.org/doc/stable/", None),
     "sphinx": ("https://www.sphinx-doc.org/en/master/", None),
 }
+
+
+class InterpretationAdmonition(BaseAdmonition):
+    """Custom Admonition with "Interpretation" as title."""
+
+    node_class = nodes.admonition
+
+    def set_option_default(self, name: str, value: str) -> None:
+        """This should be called inside the ``run`` method."""
+        self.options.setdefault(name, self.option_spec[name](value))
+
+    def run(self):
+        self.arguments = ["Interpretation"]
+        self.set_option_default("class", "interpretation")
+        return super().run()
+
+
+def setup(app):
+    app.add_directive("interpretation", InterpretationAdmonition)

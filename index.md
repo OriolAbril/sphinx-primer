@@ -77,3 +77,6 @@ themes
 beyond/index
 :::
 
+:::{interpretation}
+Lets try out a custom admonition
+:::
