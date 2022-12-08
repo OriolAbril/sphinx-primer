@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Sphinx Primer package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Oriol Abril-Pla <oriol.abril.pla@gmail.com>, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Sphinx Primer 0.2\n"
+"Project-Id-Version: Sphinx Primer 0.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-25 04:50+0200\n"
+"POT-Creation-Date: 2022-02-26 00:51+0200\n"
 "PO-Revision-Date: 2022-02-25 03:07+0000\n"
+"Last-Translator: Oriol Abril-Pla <oriol.abril.pla@gmail.com>, 2022\n"
 "Language-Team: Catalan (https://www.transifex.com/arviz/teams/132759/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,53 +21,53 @@ msgstr ""
 "Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../beyond/glossary.md:1 7b764295ab1a402eb623ca5b729344f3
+#: ../beyond/glossary.md:1 a30e3ee2c084407fa28f7f3798e5ec6d
 msgid "Glossary"
-msgstr ""
+msgstr "Glossari"
 
-#: ../beyond/glossary.md:2 bddc7fad9ab14faab602f080d839eeab
+#: ../beyond/glossary.md:2 d6f010d828a14a729fcb532f3cec06aa
 msgid ""
 "Glossaries allow for a page with definitions for common terms which can then"
 " be referenced and linked from anywhere else on the documentation, or even "
 "from external docs!"
 msgstr ""
 
-#: ../beyond/glossary.md:6 b3a553aa5eb04d5d978d46ebebdc106d
+#: ../beyond/glossary.md:6 77c48816f7ba44b79a73acc57e7e1f87
 msgid "The main references on glossary usage within sphinx are:"
-msgstr ""
+msgstr "Les principals referències sobre l'us de glossaris amb sphinx són:"
 
-#: ../beyond/glossary.md:7 943b4ab6859d4f0ab4b51413c47bcd87
+#: ../beyond/glossary.md:7 cd77678ffd694319bab72bed5b51b49c
 msgid ""
 "[Sphinx documentation](https://www.sphinx-"
 "doc.org/en/master/usage/restructuredtext/directives.html#directive-glossary)"
 msgstr ""
 
-#: ../beyond/glossary.md:8 3d6be683ed574c079643d9fe9e7cde2a
+#: ../beyond/glossary.md:8 15569779fbd94486b2cda4febbaa7b47
 msgid ""
 "[JupyterBook documentation](https://jupyterbook.org/content/content-"
 "blocks.html#glossaries)"
 msgstr ""
 
-#: ../beyond/glossary.md:10 061b8d859e2048e5bcaa5befe92eea8d
+#: ../beyond/glossary.md:10 6514a261b5eb489fabb0beef686569c7
 msgid ""
 "However, there are several extra details that are not covered in these two "
 "docs."
 msgstr ""
 
-#: ../beyond/glossary.md:13 5005fc396f7a497a9afbfb3bc3ccd651
+#: ../beyond/glossary.md:13 cd81a4a5ed5a434bb4ca39536f1959a1
 msgid ""
 "Definitions can have multiple terms assigned to them. Thus, the syntax below"
 " can be used within the glossary:"
 msgstr ""
 
-#: ../beyond/glossary.md:22 6784e12bd1684df4ae8f9becbfafbbaf
+#: ../beyond/glossary.md:22 4e474949f0e2477592afae770c698d40
 msgid ""
 "In such cases, both `` {term}`name1` `` and `` {term}`name2` `` can be used "
 "to link to the same definition. Note that the name used as id will be the "
 "one shown as clickable link."
 msgstr ""
 
-#: ../beyond/glossary.md:26 fe90275f4e834697b1c58ddc9017e45c
+#: ../beyond/glossary.md:26 426f8394238f4bbdb2e395a4dcbeb81a
 msgid ""
 "Therefore, this feature can be used for acronyms but using `` {term}`MCMC` "
 "`` will show as `MCMC` even if `Markov Chain Monte Carlo` is also a name "
@@ -72,7 +76,7 @@ msgid ""
 "Chain Monte Carlo <MCMC>` `` should be used."
 msgstr ""
 
-#: ../beyond/glossary.md:33 920841a1f1b74bbe8ab33e35adc2ea7c
+#: ../beyond/glossary.md:33 239615f9edcf4c278551f91251e6a9c8
 msgid ""
 "Term type ids are case insensitive. Thus, following the example above, `` "
 "{term}`mcmc` `` is as valid as `` {term}`MCMC` ``."
